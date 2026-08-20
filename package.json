@@ -1,0 +1,15 @@
+{
+  "name": "sandbox-decouverte",
+  "version": "1.0.0",
+  "description": "Projet-jouet jetable pour évaluer Google Cloud Shell",
+  "type": "module",
+  "scripts": {
+    "build": "echo 'Build placeholder — rien à compiler pour ce projet statique'",
+    "test": "vitest run",
+    "test:e2e": "playwright test"
+  },
+  "devDependencies": {
+    "vitest": "^2.0.0",
+    "@playwright/test": "^1.45.0"
+  }
+}
