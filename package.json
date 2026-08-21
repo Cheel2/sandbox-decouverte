@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "echo 'Build placeholder — rien à compiler pour ce projet statique'",
-    "test": "vitest run",
+    "test": "vitest run --exclude=e2e",
     "test:e2e": "playwright test"
   },
   "devDependencies": {
